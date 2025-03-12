@@ -133,6 +133,12 @@ header {
   background-color: #640fc5;
 }
 
+button {
+  height: 30px;
+  text-align: center;
+  border-radius: 1em;
+}
+
 .paddingl-medium {
   padding-left: 20px;
 }
