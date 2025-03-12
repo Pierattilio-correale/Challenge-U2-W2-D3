@@ -17,6 +17,8 @@ nav {
 }
 h1 {
   text-align: center;
+
+  @include fonttitle;
 }
 
 .center {
@@ -27,6 +29,11 @@ h1 {
   display: flex;
   justify-content: space-between;
   padding-left: 20px;
+  div {
+    img {
+      animation: flexmoving 13s linear 1;
+    }
+  }
 }
 .larghezza-altezzacontainer {
   width: 90%;
@@ -41,4 +48,12 @@ h1 {
 }
 .y {
   background-color: #4caf50;
+}
+
+a {
+  @include fontanchor;
+}
+
+header {
+  animation: headermoving 5s linear 1;
 }

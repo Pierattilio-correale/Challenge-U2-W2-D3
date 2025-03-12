@@ -1,0 +1,35 @@
+@keyframes headermoving {
+  0% {
+    transform: translatey(-300px);
+  }
+  25% {
+    transform: translatey(-100px);
+  }
+  50% {
+    transform: translatey(-50px);
+  }
+  75% {
+    transform: translatey(-25px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+@keyframes flexmoving {
+  0% {
+    transform: translatey(-800px);
+  }
+  25% {
+    transform: translatey(-600px);
+  }
+  50% {
+    transform: translatey(-300px);
+  }
+  75% {
+    transform: translatey(-50px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
