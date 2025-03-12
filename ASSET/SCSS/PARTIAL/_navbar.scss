@@ -1,0 +1,44 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  img {
+    width: 100%;
+    height: 50px;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    li {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+h1 {
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.flexidv {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+.larghezza-altezzacontainer {
+  width: 90%;
+  height: 300px;
+}
+
+.firstbutton {
+  background-color: #0e6cff;
+}
+.z {
+  background-color: #ff8700;
+}
+.y {
+  background-color: #4caf50;
+}

@@ -1,0 +1,104 @@
+// PADDING LEFT
+
+$padding-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $padding-map {
+  .paddingl-#{$name} {
+    padding-left: $value;
+  }
+}
+
+// PADDING right
+$padding-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $padding-map {
+  .paddingr-#{$name} {
+    padding-right: $value;
+  }
+}
+
+// PADDING tOP
+$padding-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $padding-map {
+  .paddingt-#{$name} {
+    padding-top: $value;
+  }
+}
+
+// PADDING BOTTOM
+$padding-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $padding-map {
+  .paddingb-#{$name} {
+    padding-bottom: $value;
+  }
+}
+
+// MARGIN BOTTOM
+$margin-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $margin-map {
+  .marginb-#{$name} {
+    margin-bottom: $value;
+  }
+}
+
+// MARGIN LEFT
+$margin-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $margin-map {
+  .marginl-#{$name} {
+    margin-left: $value;
+  }
+}
+
+// MARGIN TOP
+$margin-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $margin-map {
+  .margint-#{$name} {
+    margin-top: $value;
+  }
+}
+
+// MARGIN RIGHT
+$margin-map: (
+  medium: 20px,
+  small: 10px,
+  large: 30px,
+);
+
+@each $name, $value in $margin-map {
+  .marginr-#{$name} {
+    margin-right: $value;
+  }
+}

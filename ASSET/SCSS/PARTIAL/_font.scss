@@ -1,0 +1,11 @@
+@mixin fonttitle {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: white;
+}
+
+h1 {
+  @include fonttitle;
+}
