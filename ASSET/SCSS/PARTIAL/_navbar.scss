@@ -4,6 +4,7 @@ nav {
   img {
     width: 100%;
     height: 50px;
+    @include floating;
   }
   ul {
     display: flex;
@@ -38,16 +39,26 @@ h1 {
 .larghezza-altezzacontainer {
   width: 90%;
   height: 300px;
+  @include floating2;
 }
 
 .firstbutton {
   background-color: #0e6cff;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .z {
   background-color: #ff8700;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .y {
   background-color: #4caf50;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 a {

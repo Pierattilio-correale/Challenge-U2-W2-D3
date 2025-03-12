@@ -270,6 +270,9 @@ nav {
 nav img {
   width: 100%;
   height: 50px;
+  border-radius: 2em;
+  box-shadow: skyblue 2px 2px 2px 2px;
+  border: 2px solid skyblue;
 }
 nav ul {
   display: flex;
@@ -303,18 +306,29 @@ h1 {
 .larghezza-altezzacontainer {
   width: 90%;
   height: 300px;
+  border-radius: 2em;
+  box-shadow: skyblue 1px 1px 1px 1px;
 }
 
 .firstbutton {
   background-color: #0e6cff;
 }
+.firstbutton:hover {
+  cursor: pointer;
+}
 
 .z {
   background-color: #ff8700;
 }
+.z:hover {
+  cursor: pointer;
+}
 
 .y {
   background-color: #4caf50;
+}
+.y:hover {
+  cursor: pointer;
 }
 
 a {

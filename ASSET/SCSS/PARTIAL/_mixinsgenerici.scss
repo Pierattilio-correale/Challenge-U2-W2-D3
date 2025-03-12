@@ -1,2 +1,10 @@
-@mixin title-big {
+@mixin floating {
+  border-radius: 2em;
+  box-shadow: skyblue 2px 2px 2px 2px;
+  border: 2px solid skyblue;
+}
+
+@mixin floating2 {
+  border-radius: 2em;
+  box-shadow: skyblue 1px 1px 1px 1px;
 }
